@@ -1,0 +1,9 @@
+h1 {
+  color: black;
+}
+
+@media print {
+	h1 {
+		color: red;
+	}
+}
