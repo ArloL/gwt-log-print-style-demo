@@ -4,16 +4,7 @@
 <module rename-to='demo'>
 
   <inherits name='com.google.gwt.user.User'/>
-  <inherits name='com.google.gwt.user.theme.clean.Clean'/>
   <entry-point class='de.evosec.printdemo.client.Demo'/>
-  
-  <inherits name="com.allen_sauer.gwt.log.gwt-log-DEBUG" />
-  <set-configuration-property
-        name="log_pattern"
-        value="%-5p: %c: %m%n" />
-    <set-property
-        name="log_DivLogger"
-        value="DISABLED" />
 
   <source path='client'/>
 
